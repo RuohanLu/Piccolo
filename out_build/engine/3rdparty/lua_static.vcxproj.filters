@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lauxlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lbaselib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lcode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lcorolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lctype.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\ldblib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\ldebug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\ldo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\ldump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lfunc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lgc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\linit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\liolib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\llex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lmathlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lmem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\loadlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lobject.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lopcodes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\loslib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lparser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lstate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lstring.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lstrlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\ltable.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\ltablib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\ltm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lundump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lutf8lib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lvm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\lua-5.4.4\lzio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PiccoloEngine\Piccolo\engine\3rdparty\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4CF707B3-ACC3-33DF-8FAD-0DD258DB5F3A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\PiccoloEngine\Piccolo\out_build\CMakeFiles\064dcb1fd6a852d437c0279f9a9f5c0e\PiccoloPreCompile.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\PiccoloEngine\Piccolo\engine\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\PiccoloEngine\Piccolo\out_build\engine\CMakeFiles\PiccoloPreCompile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C972CBFF-D6B1-3D06-8464-B23C1E261BB9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

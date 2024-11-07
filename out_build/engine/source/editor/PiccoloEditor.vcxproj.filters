@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\source\editor\source\axis.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\source\editor\source\editor.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\source\editor\source\editor_file_service.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\source\editor\source\editor_global_context.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\source\editor\source\editor_input_manager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\source\editor\source\editor_scene_manager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\source\editor\source\editor_ui.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\PiccoloEngine\Piccolo\engine\source\editor\source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\PiccoloEngine\Piccolo\engine\source\editor\include\axis.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PiccoloEngine\Piccolo\engine\source\editor\include\editor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PiccoloEngine\Piccolo\engine\source\editor\include\editor_file_service.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PiccoloEngine\Piccolo\engine\source\editor\include\editor_global_context.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PiccoloEngine\Piccolo\engine\source\editor\include\editor_input_manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PiccoloEngine\Piccolo\engine\source\editor\include\editor_scene_manager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\PiccoloEngine\Piccolo\engine\source\editor\include\editor_ui.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\PiccoloEngine\Piccolo\engine\source\editor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\PiccoloEngine\Piccolo\engine\source\editor\resource\PiccoloEditor.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{7A50F437-E6FE-39DD-9DA0-3078A46E1CD8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{E7FA6D27-E59A-33E2-ABB2-7EC34A547ED9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{872B3A38-5E9D-3794-92FE-C8E1ABC12452}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
