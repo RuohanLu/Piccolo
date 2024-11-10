@@ -76,22 +76,40 @@ namespace Pilot
 
         hits.clear();
 
+        float max_height = 1.0f;
+
         // side pass
-        //if (physics_scene->sweep(
-        //    m_rigidbody_shape,
-        //    /**** [0] ****/,
-        //    /**** [1] ****/,
-        //    /**** [2] ****/,
-        //    hits))
-        //{
-        //    final_position += /**** [3] ****/;
-        //}
-        //else
+        world_transform.m_position += 0.1f * Vector3::UNIT_Z;
+        if (physics_scene->sweep(
+            m_rigidbody_shape,
+            world_transform.getMatrix(),
+            horizontal_direction,
+            horizontal_displacement.length(),
+            hits))
+        {
+            world_transform.m_position += 0.2f * Vector3::UNIT_Z;
+            if (!physics_scene->sweep(
+              m_rigidbody_shape,
+              world_transform.getMatrix(),
+              horizontal_direction,
+              horizontal_displacement.length(),
+              hits))
+            {
+                final_position += Vector3(0.f, 0.f, 0.2f) + horizontal_displacement;
+            }
+            else
+            {
+                float sliding_displacement = hits[0].hit_normal.x * horizontal_displacement.y - hits[0].hit_normal.y * horizontal_displacement.x;
+                Vector3 sliding_direction = Vector3(-hits[0].hit_normal.y, hits[0].hit_normal.x, hits[0].hit_normal.z);
+                final_position += sliding_direction * sliding_displacement;
+            }
+        }
+        else
         {
             final_position += horizontal_displacement;
         }
 
-        return final_position;
+        return final_position;  
     }
 
 } // namespace Pilot
